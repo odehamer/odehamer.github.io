@@ -1,7 +1,56 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    text-align: center;
+}
+
+.date {
+    color: gray;
+    font-size: 0.8em;
+    padding-bottom: 10px;
+}
+
+.description {
+    padding-bottom: 20px;
+}
+
 a:hover {
     color: green;
 }
 
 header h1 {
     text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family:Trebuchet MS, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+h2 {
+    font-family: Arial, sans-serif;
+    font-size: 1.5em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+h3 {
+    padding-bottom: 7px;
+}
+
+h3,
+p {
+    font-family: Arial, sans-serif;
+}
+
+ul {
+    padding-left: 100px;
+    padding-right: 100px;
 }
